@@ -1,0 +1,29 @@
+@font-face{
+    font-family: budidaya;
+    src: url(./Font/Budidaya_Regular.otf)
+}
+body{
+    margin: 0;    
+}
+.navbar{
+   position: sticky;
+   width: 100vw;
+   height: 10vh;
+   background-color: beige;
+   margin: 0;
+   padding-right: 2em;
+}
+.navbar h1{
+    font-family: budidaya;
+    margin: 0;
+    text-align: right;
+    font-size: 3em;
+    margin-right: 5%;
+}
+.touring_carousel{
+    width: 80vw;
+    background-color: blue;
+    height: 30vh;
+    align-self: center;
+    margin-left: 10vw;
+}
