@@ -3,15 +3,15 @@
     src: url(./Font/Budidaya_Regular.otf)
 }
 body{
-    margin: 0;    
+    margin: 0;
+    background-color: #FFF9DD;    
 }
 .navbar{
-   position: sticky;
+   position: fixed;
    width: 100vw;
    height: 10vh;
-   background-color: beige;
+   background-color: #E9EA8d;
    margin: 0;
-   padding-right: 2em;
 }
 .navbar h1{
     font-family: budidaya;
@@ -21,10 +21,9 @@ body{
     margin-right: 5%;
     padding-top: 0.5%;
 }
-.touring_carousel{
-    width: 80vw;
-    background-color: blue;
-    height: 30vh;
-    align-self: center;
-    margin-left: 10vw;
+.subnavbar{
+    width: 70vw;
+    height: 25%;
+    background-color: black;
+    position: relative;
 }
