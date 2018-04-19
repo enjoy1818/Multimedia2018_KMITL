@@ -17,8 +17,9 @@ body{
     font-family: budidaya;
     margin: 0;
     text-align: right;
-    font-size: 3em;
+    font-size: 300%;
     margin-right: 5%;
+    padding-top: 0.5%;
 }
 .touring_carousel{
     width: 80vw;
