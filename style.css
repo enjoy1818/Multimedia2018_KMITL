@@ -17,10 +17,11 @@ body{
 .main-container{
     display: flex;
     flex-direction: column;
-    height: 200vh;
+    /* height: 200vh; */
     margin: 0;
     background-image: url(./Image/jumbotron.jpeg);
     background: no-repeat;
+    position: relative;
 }
 .navbar-container{
     flex: 1;
@@ -71,22 +72,24 @@ body{
 }
 /* end navbar */
 /* content */
-.content-container{
+.jumbo-container{
     flex: 10;
     display: flex;
     background-image: url(./Image/jumbotron.jpeg);
     background-size: cover;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    height: 100vh; 
 }
-.content-container h1{
+.jumbo-container h1{
     font-size: 2000%;
-    color: hsla(221, 65%, 54%, 1);;
+    color: hsla(221, 65%, 100%, 1);;
     font-family: budidaya;
 }
 /* end content */
-/* start bottom */
-.bottom-container{
-    flex: 4;
-    background-color: hsla(215, 78%, 36%, 1);
+/* start content */
+.content-container{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
 }
