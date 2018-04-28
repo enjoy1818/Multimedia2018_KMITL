@@ -79,17 +79,53 @@ body{
     background-size: cover;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    height: 100vh;
+    font-size: 75%; 
+    flex-wrap: initial;
 }
 .jumbo-container h1{
     font-size: 2000%;
-    color: hsla(221, 65%, 100%, 1);;
+    color: hsla(221, 65%, 100%, 1.0);;
     font-family: budidaya;
 }
 /* end content */
 /* start content */
 .content-container{
+    padding-top: 2.5%;
     display: flex;
     flex-direction: column;
     background-color: bisque;
+    font-family: Kanit;
+}
+.content-container-places-tour{
+    display: flex;
+    flex-direction: column;
+}
+.content-container-places-header{
+    flex-grow: 2;
+    align-self: center;
+    justify-self: center;
+}
+.content-container-places-header h1{
+    font-size: 400%;
+}
+.content-container-places-item{
+    flex-direction: row;
+    display: flex;
+}
+.content-container-places-item-description{
+    padding-left: 1%;
+    flex-grow: 1;
+    max-width: 50%;
+}
+.content-container-places-item-description h1{
+    text-align: center;
+}
+.content-container-places-item-picture{
+    flex-grow: 4;
+    padding-left: 1%;
+}
+.content-container-places-item-picture img{
+    height: 100%;
+    width: 100%;
 }
