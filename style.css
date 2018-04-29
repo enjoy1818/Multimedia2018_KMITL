@@ -136,3 +136,10 @@ body{
 .content-container-places-item:last-child{
     padding-bottom: 2%;
 }
+.content-container-places-hotel{
+    display: flex;
+    flex-direction: column;
+}
+.content-container-places-hotel-header{
+    text-align: center;
+}
