@@ -28,10 +28,9 @@ body{
     display: flex;
     width: 100%;
     height: 10%;
-    background-color:hsla(221, 65%, 54%, 0.2);
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    background-color:hsla(221, 65%, 54%, 0.1);
     flex-direction: row;
+    position: fixed;
 }
 .navbar-logo{
     flex: 2;
@@ -57,14 +56,14 @@ body{
     flex: 1;
     height: 100%;
     text-align: center;
-    padding-top: 2%;
     display: flex;
+    padding-top: 4%;
 }
 .navbar-menu ul li a{
     font-family: Kanit;
     color: black;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 125%;
     flex: 3;
 }
 .navbar-menu ul li a:hover{
@@ -136,4 +135,12 @@ body{
 }
 .content-container-places-item:last-child{
     padding-bottom: 2%;
+}
+.content-container-places-hotel{
+    display: flex;
+    flex-direction: column;
+    background-color: maroon;
+}
+.content-container-places-hotel-header{
+    text-align: center;
 }
