@@ -139,7 +139,8 @@ body{
 .content-container-places-hotel{
     display: flex;
     flex-direction: column;
-    background-color: maroon;
+    background-color: #F2EDC0;
+    padding-top: 2%;
 }
 .content-container-places-hotel-header{
     text-align: center;
