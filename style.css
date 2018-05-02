@@ -100,7 +100,7 @@ body{
     padding-top: 5%;
     display: flex;
     flex-direction: column;
-    background-color: bisque;
+    background-color: #F1C39F;
     font-family: Kanit;
 }
 .content-container-province{
@@ -112,6 +112,7 @@ body{
     flex-grow: 4;
     flex-direction: row;
     padding-right: 10%;
+    max-width: 65%;
 }
 .content-container-province-header h1{
     font-size: 400%;
@@ -124,8 +125,23 @@ body{
     font-size: 120%;
 }
 .content-container-province-identity{
-    flex-grow: 6;
+    flex-grow: 8;
     padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.content-container-province-identity img{
+    width: 50%;
+    height: 50%;
+    justify-self: center;
+}
+.content-container-province-identity h4{
+    padding-left: 5%;
+}
+.content-container-province-identity-motto{
+    padding-top: 10%;
+    font-style: oblique;
 }
 .content-container-places-tour{
     display: flex;
@@ -170,7 +186,7 @@ body{
 .content-container-places-hotel{
     display: flex;
     flex-direction: column;
-    background-color: maroon;
+    background-color: #F0C8A3;
 }
 .content-container-places-hotel-header{
     text-align: center;
